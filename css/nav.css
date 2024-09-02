@@ -1,0 +1,48 @@
+nav{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #004274;
+    position: relative;
+    height: 70px;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+}
+
+.manu_icon i{
+    color: #ffff;
+    font-size: 30px;
+}
+@media (max-width:600px){
+    nav{
+        margin-bottom: 200px;
+    }
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: #004274;
+        gap: 0;
+        overflow: hidden;
+    }
+    nav ul li{
+        padding: 20px;
+    }
+    .manu_icon{
+        display: block;
+    }
+}

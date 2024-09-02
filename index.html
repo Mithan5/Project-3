@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesom -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+     <link rel="stylesheet" href="./css/style.css">
+     <!-- nav css -->
+      <link rel="stylesheet" href="./css/nav.css">
+
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <h1> Portfolio</h1>
+        </div>
+        <ul id="menuList">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="./Protfolio/index.html">Project</a></li>
+        </ul>
+        <div class="manu_icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+    <!-- HEADER DESIGN -->
+    <!-- <header class="header">
+        <a href="#" class="logo"> Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" class="active"> Home</a>
+            <a href="#about"> About</a>
+            <a href="#Services"> Services</a>
+            <a href="#Portfolio"> Portfolio</a>
+            <a href="#contact"> contact</a>
+        </nav>
+        <i class="fa-solid fa-bars" id="manu_icon"></i>
+    </header>  -->
+    <!-- HOME SECTION DESIGN  -->
+      <section class="home" id="home">
+         <div class="home_content">
+            <h3> Hi, Myself</h3>
+            <h1> <span class="M"> Mithan</span> hossain</h1>
+            <h3> And I'm a <span> Web Developer</span></h3>
+            <p>
+                "Hello! I'm <span class="nam"> Mithan</span>, a dedicated web developer passionate about crafting dynamic and user-friendly websites. With expertise in front-end  development, I specialize in creating responsive designs that blend aesthetics with functionality. Explore my portfolio to see how I bring ideas to life with code."
+            </p>
+            <div class="social_media">
+                <a href="https://www.facebook.com/md.mithan.hossan.7"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/md-mithan-hossain-126b892b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"<i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="./CV/White and Green Simple Student CV Resume (1).pdf" class="btn"> MY CV</a>
+         </div>
+         <div class="home_img">
+            <img src="./img/mmm.png" alt="">
+         </div>
+      </section>
+       <!-- about section design -->
+       <section class="about" id="about">
+        <div class="about-img">
+            <img src="./img/aboutpic.png" alt="">
+        </div>
+         <div class="about_content">
+            <h2 class="heading"> ABOUT <span> Me</span> </h2>
+            <h3> Web Developer</h3>
+            <p> Hi there! I'm <span class="nam">Md Mithan hossain</span>, a passionate web developer with 1 years of experience creating modern and responsive websites. I specialize in front-end development using HTML5, CSS3, basic JavaScript.. I enjoy turning complex problems into simple, beautiful, and intuitive designs. When I'm not coding, you can find me exploring the latest technologies in web development or enjoying a good book.</p>
+            <a href="#" class="btn"> Read more</a>
+         </div>
+      </section>
+    <!-- Service_section -->
+    <section class="Services" id="Services">
+        <h2 class="headinng"> My <span> Services</span> </h2>
+        <div class="Services_container">
+            <div class="services_box">
+                <i class="fa-solid fa-code"></i>
+                <h3> Web Developer </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non delectus aspernatur nostrum velit facere nam quos ducimus, mollitia cupiditate minima repudiandae animi sequi autem magni aliquam a optio quas.</p>
+                <a href="#" class="btn"> Read More</a>
+            </div>
+            <div class="services_box">
+                <i class="fa-solid fa-palette"></i>
+                <h3> UI/UX Designing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non delectus aspernatur nostrum velit facere nam quos ducimus, mollitia cupiditate minima repudiandae animi sequi autem magni aliquam a optio quas.</p>
+                <a href="#" class="btn"> Read More</a>
+            </div>
+            <div class="services_box">
+                <i class="fa-brands fa-android"></i>
+                <h3> App Developer </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non delectus aspernatur nostrum velit facere nam quos ducimus, mollitia cupiditate minima repudiandae animi sequi autem magni aliquam a optio quas.</p>
+                <a href="#" class="btn"> Read More</a>
+            </div>
+        </div>
+       </section>
+       <!-- Portfolio Section -->
+        <section class="Portfolio" id="Portfolio">
+            <h2 class="heading"> Latest <span> Project</span> </h2>
+
+            <div class="portfolio_container">
+            <div class="portfolio_box">
+                <img src="./img/1.jpg" alt="">
+                <div class="portfolio_layer">
+                    <h4> Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="portfolio_box">
+                <img src="./img/2.jpg" alt="">
+                <div class="portfolio_layer">
+                    <h4> Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="portfolio_box">
+                <img src="./img/3.jpg" alt="">
+                <div class="portfolio_layer">
+                    <h4> Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="portfolio_box">
+                <img src="./img/5.jpg" alt="">
+                <div class="portfolio_layer">
+                    <h4> Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="portfolio_box">
+                <img src="./img/4.jpg" alt="">
+                <div class="portfolio_layer">
+                    <h4> Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="portfolio_box">
+                <img src="./img/6.jpg" alt="">
+                <div class="portfolio_layer">
+                    <h4> Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- Contact section  -->
+        <section class="contact" id="contact">
+            <h2 class="heading"> Contact <span> Me</span> </h2>
+
+            <form action="#">
+                <div class="input_box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                </div>
+                <div class="input_box">
+                    <input type="number" placeholder="Moblle Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </section>
+
+        <!-- footer section -->
+
+        <footer class="footer">
+            <div class="footer_text">
+                <p> Copyright &copy; 2025 @heresthecode | All Right Reserved</p>
+            </div>
+            <div class="footer_icon">
+                <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+            </div>
+        </footer>
+        <!-- main js -->
+    <script src="./js/main.js"></script>
+  
+
+    <!-- <script>
+         let menu = document.querySelector('#manu_icon');
+        let navbar = document.querySelector('.navbar');
+
+        menu.onclick = () => {
+            menu.classList.toggle('fa-bars');
+            navbar.classList.toggle('open')
+        }
+    </script> -->
+</body>
+</html>
